@@ -1,0 +1,96 @@
+@CHARSET "UTF-8";
+#main{
+	width:960px;
+	margin:10px auto 0 auto;
+}
+#bar{
+	padding:0 0 20px 0;
+}
+#bar ul{
+	
+}
+#bar ul li{
+	float:left;
+	width:155px;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	border:1px solid #ccc;
+	border-left:none;
+	cursor:pointer;
+}
+#bar ul li:hover{
+	background:#ccc;
+}
+#bar ul li:first-child{
+	border-left:1px solid #ccc;
+}
+
+#bar ul li.select{
+	background:#ccc;
+}
+#main .old{
+	width:100%;
+	display:none;
+}
+#main .old a.more{
+	display:block;
+	width:50px;
+	text-align:left;
+	padding:10px;
+}
+#main .type1{
+	display:block;
+}
+#main .old dl.list_dl{
+
+	
+}
+#main .old dl.list_dl dd{
+	width:200px;
+	height:160px;
+	float:left;
+	margin:5px 0 0 25px;
+	position:relative;
+	cursor:pointer;
+}
+#main .old dl.list_dl dd span{
+	display:block;
+	width:200px;
+	height:30px;
+	background:#ccc;
+	position:absolute;
+	top:130px;
+	left:0;
+	opacity:0.3;
+	z-index:1;
+}
+
+#main .old dl.list_dl dd ul{
+	font-size:12px;
+	color:#fff;
+	position:absolute;
+	top:130px;
+	left:20px;
+	z-index:2;
+}	
+
+#main .old dl.list_dl dd ul li{
+	width:40px;
+	height:20px;
+	color:#000;
+	line-height:20px;
+	text-align:center;
+	border-radius:3px;
+	background:#E5E5E5;
+	float:left;
+	margin:5px;
+	opacity:0.8;
+}
+
+
+
+
+
+
+
